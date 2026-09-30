@@ -57,7 +57,7 @@ tasks/           SDD plan and implementation checklist
 
 See `.env.example`: `DATABASE_URL`, `AI_BASE_URL`, `AI_API_KEY`, `AI_MODEL`, `PORT`, `APP_ORIGIN`, and optional timeout/cookie settings. The API key is server-only and is never bundled into the client.
 
-The MVP deliberately excludes authentication, streaming, pagination, rate limiting, retries, multiple providers, and conversation context. A real provider call must be checked with a valid key; local build checks do not prove provider access.
+The MVP deliberately excludes authentication, streaming, pagination, rate limiting, retries, multiple providers, and conversation context. Provider credentials are supplied through server environment variables and are never bundled into the client.
 
 ## Возможные следующие функции
 
