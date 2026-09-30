@@ -2,19 +2,6 @@
 
 Anonymous prompt gateway: React + Vite client, Node + Express server, direct PostgreSQL access through `pg`, and one OpenAI-compatible provider (OpenRouter by default).
 
-<p align="center">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-6.0-blue?style=for-the-badge&logo=typescript&logoColor=white">
-  <img alt="Express" src="https://img.shields.io/badge/Express-4.16-black?style=for-the-badge&logo=express&logoColor=white">
-  <img alt="OpenAPI" src="https://img.shields.io/badge/OpenAPI-3.0-green?style=for-the-badge&logo=swagger&logoColor=white">
-  <img alt="UI" src="https://img.shields.io/badge/UI-Animated-orange?style=for-the-badge">
-</p>
-
-<p align="center">
-  <img src="docs/media/local-chess-demo.gif" alt="Local Chess demo" width="900">
-</p>
-
----
-
 ## Features
 
 - anonymous `HttpOnly` cookie session, no login
