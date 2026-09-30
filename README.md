@@ -53,6 +53,8 @@ compose.yaml     Local PostgreSQL
 tasks/           SDD plan and implementation checklist
 ```
 
+Сервер написан в `server.mjs`, потому что Node.js 22 запускает этот файл напрямую с нативным ESM (`import`/`export`). Для серверной части не нужны TypeScript-компиляция, Babel и отдельная сборка, поэтому запуск остаётся коротким и соответствует минимальному объёму MVP.
+
 ## Environment
 
 See `.env.example`: `DATABASE_URL`, `AI_BASE_URL`, `AI_API_KEY`, `AI_MODEL`, `PORT`, `APP_ORIGIN`, and optional timeout/cookie settings. The API key is server-only and is never bundled into the client.
